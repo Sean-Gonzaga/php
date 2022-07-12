@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; 
+   padding:0;
+   box-sizing: border-box;
+   outline: none; 
+   border:none;
+   text-decoration: none;
+}
+
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+}
+
+.container .content{
+   text-align: center;
+}
+
+.container .content h3{
+   font-size: 30px;
+   color:#333;
+}
+
+nav {
+   display: flex;
+   border-bottom: 2px solid #063970;
+}
+
+nav h3{
+   margin: 20px;
+}
+
+nav h3 span{
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   padding:0 15px;
+}
+
+nav .btn {
+   margin: auto;
+   margin-right: 20px;
+   padding:5px 10px;
+   font-size: 16px;
+   background: #333;
+   color:#fff;
+   text-transform: capitalize;
+   border-radius: 5px;
+}
+nav .btn:hover{
+   background: crimson;
+}
+
+.container .content h1{
+   font-size: 50px;
+   color:#333;
+}
+
+.container .content h1 span{
+   color:crimson;
+}
+
+.container .content p{
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+
+.container .content .btn{
+   display: inline-block;
+   padding:10px 30px;
+   font-size: 20px;
+   background: #333;
+   color:#fff;
+   margin:0 5px;
+   text-transform: capitalize;
+   border-radius: 5px;
+}
+
+.container .content .btn:hover{
+   background: crimson;
+}
+
+.form-container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+   background: #eee;
+}
+
+.form-container form{
+   padding:20px;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgba(0,0,0,.1);
+   background: #fff;
+   text-align: center;
+   width: 500px;
+}
+
+.form-container form h3{
+   font-size: 30px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   color:#333;
+}
+
+.form-container form input,
+.form-container form select{
+   width: 100%;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: #eee;
+   border-radius: 5px;
+}
+
+.form-container form select option{
+   background: #fff;
+}
+
+.form-container form .form-btn{
+   background: ;
+   color:#063970;
+   text-transform: capitalize;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+   background: #063970;;
+   color:#fff;
+}
+
+.form-container form p{
+   margin-top: 10px;
+   font-size: 20px;
+   color:#333;
+}
+
+.form-container form p a{
+   color: #063970;
+   text-decoration: underline;
+}
+
+.form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
+
+
+
+
+
+
+.card {
+   margin: auto;
+   justify-content: center;
+   width: 80%;
+}
+
+.card-header h4 {
+   text-align: center;
+   font-size: 25px;
+}
+
+.card-body th {
+   margin: auto;
+   color: whitesmoke;
+   background: limegreen;
+   text-align: center;
+   width: 10%;
+}
+
+.card-body tr:nth-child(even){
+   background-color: #f2f2f2;
+}
+
+.card-body tr:hover {
+   background-color: #ddd;
+}
+
+
+.card-body td {
+   padding: 10px;
+   text-align: center;
+}
+
+.del-btn {
+   background: crimson;
+   padding: 5px;
+   border-radius: 5px;
+   color: whitesmoke;
+   cursor: pointer;
+   border: 2px solid white;
+}
+.del-btn:hover {
+   border: 2px solid black;
+}
+
+.edit-btn {
+   background: #1c8dc9;
+   padding: 5px 10px;
+   border-radius: 5px;
+   color: whitesmoke;
+   cursor: pointer;
+   border: 2px solid white;
+}
+.edit-btn:hover {
+   border: 2px solid black;
+}
+
+
+.edit-input {
+   margin: auto;
+   margin-top: 20px;
+   display: flex;
+}
+
+.edit-label {
+   margin: auto;
+}
+
+.edit-input input{
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: #eee;
+   border-radius: 5px;
+}
+
+.update-btn {
+   display: flex;
+   margin: auto;
+   background: limegreen;
+   padding: 10px;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+   border: 2px solid white;
+   font-size: 20px;
+}
+
+.update-btn:hover {
+   border: 2px solid black;
+}
